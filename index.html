@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My forms</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <form class="form">
+        <p>Please sign up</p>
+        <div class="block1">
+            <input type="text" class="firstName" placeholder="First name">
+            <span class="prompt1 hide">Please provide a valid First name.</span>
+        </div>
+        <div class="block2">
+            <input type="text" class="secondName" placeholder="Second name">
+            <span class="prompt2 hide">Please provide a valid Second name.</span>
+
+        </div>
+        <div class="block3">
+            <input type="text" class="email" placeholder="Email address">
+            <span class="prompt3 hide">Please provide a valid Email address.</span>
+
+        </div>
+        <div class="block4">
+            <input type="password" class="password" placeholder="Password">
+            <span class="prompt4 hide">Please provide a valid Password.</span>
+        </div>
+        <div class="check">
+            <input type="checkbox" class="checkbox">
+            <span>I agree with Privacy Policy.</span>
+        </div>
+        <input type="submit" class="signUp" value="Sign up" disabled>
+    </form>
+    <div class="success-blok hide">
+        <div class="top-block"></div>
+        <div class="bottom-block">
+            <h1>Great!</h1>
+            <p>Your account has been created successfully.</p>
+            <button class="start-exploting">Start Exploting</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
